@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+:root{
+    --red: #ff2d20;
+    --redh: #ff6258;
+}
+*, head, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.container {
+    padding: 0;
+    max-width: 1300px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.flex {
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.jcc {
+    justify-content: center;
+}
+
+.jce {
+    justify-content: end;
+}
+
+.jcsb {
+    justify-content: space-between;
+}
+
+.aic {
+    align-items: center;
+}
+
+.aie {
+    align-items: end;
+}
+
+.txtc {
+    text-align: center;
+}
+
+.txte {
+    text-align: end;
+}
+
+.infoHead{
+    padding: 20px 0;
+    border-bottom: 1px solid var(--red);
+}
+
+.headerText img{
+    max-width:40px ;
+
+}
+.nameSpanLaravel{
+    padding: 0 10px;
+    color: var(--red);
+    font-size: 30px;
+}
+.nameLaravel{
+    color: var(--red);
+    font-weight: 600 !important;
+    font-size: 30px;
+}
+.nameLaravelA{
+    margin: 0 20px;
+    color: var(--red);
+    font-size: 25px;
+
+}
+.nameLaravelA:hover{
+    border-bottom:  1px solid var(--red);
+}
+
+
+
+
+
+.bodyInformation{
+    margin-top: 30px;
+}
+.article{
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 13px 26px -9px rgba(34, 60, 80, 0.13);
+}
+.course, .blog{
+    margin: 20px 0;
+}
+h2{
+    font-size:25px;
+    font-weight: 400;
+}
+h3{
+    margin-top: 20px;
+    font-size:20px;
+    font-weight: 400;
+}
+.shortDescription{
+    padding-left: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.articleCourse{
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 0px 43px -9px rgba(34, 60, 80, 0.13);
+}
+
+
